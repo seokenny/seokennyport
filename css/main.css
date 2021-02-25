@@ -369,6 +369,10 @@ button:focus {
   margin-top: .75em;
 }
 
+#datadove .work_box-img {
+  padding-top: unset;
+}
+
 #datadove .sidenav {
   display: none;
 }
