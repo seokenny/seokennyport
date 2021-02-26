@@ -23,10 +23,9 @@ b {
 }
 
 .logo {
-  margin: auto;
-  width: 25%;
+  width: 40px;
+  border-radius: 5px;
   display: block;
-  margin-bottom: 2em;
 }
 
 .whitebg {
@@ -36,6 +35,10 @@ b {
   z-index: 2000;
   position: fixed;
   padding: 2em 0;
+}
+
+.whitebg-home {
+  padding: 1.25em 0;
 }
 
 button:focus {
@@ -61,6 +64,7 @@ button:focus {
 .right_nav-0 {
   color: #555B6E;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .right_nav-0 {
@@ -74,12 +78,11 @@ button:focus {
   color: black;
   -webkit-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
-  padding-bottom: .25em;
-  border-bottom: 1px solid black;
 }
 
 .right_nav-1 {
   display: inline-block;
+  vertical-align: middle;
   -webkit-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
 }
@@ -88,8 +91,10 @@ button:focus {
   color: black;
   -webkit-transition: color .2s ease-in-out;
   transition: color .2s ease-in-out;
-  padding-bottom: .25em;
-  border-bottom: 1px solid black;
+}
+
+.right_nav-home {
+  margin-top: 8px;
 }
 
 .nav .mobile {
@@ -223,7 +228,7 @@ button:focus {
 .main .hero {
   width: 87.5%;
   margin: auto;
-  padding: 7em 0 5em 0;
+  padding: 9em 0 5em 0;
 }
 
 .main .hero_text-header {
@@ -312,6 +317,10 @@ button:focus {
 
 .left_pad {
   margin-left: 1.95em;
+}
+
+#datadove .right_nav {
+  margin-top: unset;
 }
 
 #datadove .hero {
@@ -458,7 +467,7 @@ button:focus {
   }
   .main .hero {
     width: 75%;
-    padding: 7em 0;
+    padding: 10em 0 7em 0;
   }
   .main .hero_text-header {
     font-size: 3em;
@@ -595,7 +604,7 @@ button:focus {
 
 @media only screen and (min-width: 1110px) {
   .main .hero {
-    padding: 10em 0;
+    padding: 12em 0 10em 0;
   }
 }
 
