@@ -236,6 +236,7 @@ button:focus {outline:0;}
             &:hover {
                 transform: scale(1.05);
                 transition: all .25s ease-in-out;
+                box-shadow: 0 10px 30px $boxblue;
             }
             &-text {
                 position: absolute;
@@ -663,7 +664,7 @@ button:focus {outline:0;}
 
 .rinbox_active {
     top: -70px;
-    left: 249px;
+    left: 240px;
     opacity: 1;
     transition: all .5s ease-out;
 }

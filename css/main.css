@@ -288,6 +288,8 @@ button:focus {
           transform: scale(1.05);
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+  -webkit-box-shadow: 0 10px 30px #F6F8F9;
+          box-shadow: 0 10px 30px #F6F8F9;
 }
 
 .main .work_box-text {
@@ -679,7 +681,7 @@ button:focus {
 
 .rinbox_active {
   top: -70px;
-  left: 249px;
+  left: 240px;
   opacity: 1;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
