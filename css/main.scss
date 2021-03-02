@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+.black {
+    color: black;
+}
+
 a {
     text-decoration: none;
 }
@@ -333,11 +337,15 @@ button:focus {outline:0;}
             // border: 1px solid blue;
             &:hover {
                 transform: unset;
+                box-shadow: none;
             }
             &-text {
                 position: unset;
                 &-header {
                     font-size: 1.25em;
+                    &.subcat {
+                        font-size: 1.15em;
+                    }
                 }
                 &-para {
                     color: $darkblue;
@@ -446,7 +454,7 @@ button:focus {outline:0;}
     .main {
         & .hero {
             width: 75%;
-            padding: 10em 0 7em 0;
+            padding: 10em 0 5em 0;
             &_text {
                 &-header {
                     font-size: 3em;
@@ -512,8 +520,16 @@ button:focus {outline:0;}
                         font-size: 1.75em;
                     }
                     &-para {
-                        font-size: 1.15em;
+                        // font-size: 1.15em;
+                        font-size: 1em;
                     }
+                    & .rugslist {
+                        font-size: 1em;
+                    }
+                }
+                &.between-img {
+                    width: 100%;
+                    margin: 2.5em 0;
                 }
             }
         }
@@ -593,10 +609,21 @@ button:focus {outline:0;}
     }
 }
 
+@media only screen and (min-width: 1081px) {
+    .main {
+        & .hero {
+            width: 800px;
+        }
+        & .work {
+            width: 800px;
+        }
+    }
+}
+
 @media only screen and (min-width: 1110px) {
     .main {
         & .hero {
-            padding: 12em 0 10em 0;
+            padding: 10em 0 5em 0;
         }
     }
     .main {
@@ -620,14 +647,7 @@ button:focus {outline:0;}
 }
 
 @media only screen and (min-width: 1215px) {
-    .main {
-        & .hero {
-            width: 1000px;
-        }
-        & .work {
-            width: 1000px;
-        }
-    }
+
 }
 
 @media only screen and (min-width: 1620px) {

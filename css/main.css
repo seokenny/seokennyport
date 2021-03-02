@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+.black {
+  color: black;
+}
+
 a {
   text-decoration: none;
 }
@@ -394,6 +398,8 @@ button:focus {
 #datadove .work_box:hover {
   -webkit-transform: unset;
           transform: unset;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 #datadove .work_box-text {
@@ -402,6 +408,10 @@ button:focus {
 
 #datadove .work_box-text-header {
   font-size: 1.25em;
+}
+
+#datadove .work_box-text-header.subcat {
+  font-size: 1.15em;
 }
 
 #datadove .work_box-text-para {
@@ -499,7 +509,7 @@ button:focus {
   }
   .main .hero {
     width: 75%;
-    padding: 10em 0 7em 0;
+    padding: 10em 0 5em 0;
   }
   .main .hero_text-header {
     font-size: 3em;
@@ -555,7 +565,14 @@ button:focus {
     font-size: 1.75em;
   }
   #datadove .work_box-text-para {
-    font-size: 1.15em;
+    font-size: 1em;
+  }
+  #datadove .work_box-text .rugslist {
+    font-size: 1em;
+  }
+  #datadove .work_box.between-img {
+    width: 100%;
+    margin: 2.5em 0;
   }
   #datadove .views {
     width: 56%;
@@ -634,18 +651,18 @@ button:focus {
   }
 }
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1081px) {
   .main .hero {
-    padding: 12em 0 10em 0;
+    width: 800px;
+  }
+  .main .work {
+    width: 800px;
   }
 }
 
-@media only screen and (min-width: 1215px) {
+@media only screen and (min-width: 1110px) {
   .main .hero {
-    width: 1000px;
-  }
-  .main .work {
-    width: 1000px;
+    padding: 10em 0 5em 0;
   }
 }
 
