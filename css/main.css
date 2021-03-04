@@ -422,6 +422,7 @@ button:focus {
 
 #datadove .work_box-img {
   padding-top: unset;
+  display: block;
 }
 
 #datadove .sidenav {

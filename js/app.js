@@ -25,19 +25,19 @@ $(document).ready(function() {
     });
 
     //rugs problems
-    $(".rugs_problems").click(function() {
+    $(".rugs_goals").click(function() {
           
         $("body,html").animate({
-            scrollTop: $("#rugs_problems-div").offset().top
+            scrollTop: $("#rugs_goals-div").offset().top
             -125}, 800);
     });
 
     //rugs users
-    $(".rugs_users").click(function() {
-        $("body,html").animate({
-            scrollTop: $("#rugs_users-div").offset().top
-            -125}, 800);
-    });
+    // $(".rugs_users").click(function() {
+    //     $("body,html").animate({
+    //         scrollTop: $("#rugs_users-div").offset().top
+    //         -125}, 800);
+    // });
 
     //rugs roles
     $(".rugs_roles").click(function() {
@@ -77,23 +77,51 @@ $(document).ready(function() {
 
     //HEALCO
     //healco healco
-    $(".healco_healco").click(function() {
+    $(".healco_overview").click(function() {
         $("body,html").animate({
-            scrollTop: $("#healco_healco-div").offset().top
+            scrollTop: $("#healco_overview-div").offset().top
             -125}, 800);
     });
 
     //healco full
-    $(".healco_full").click(function() {
+    $(".healco_goals").click(function() {
         $("body,html").animate({
-            scrollTop: $("#healco_full-div").offset().top
+            scrollTop: $("#healco_goals-div").offset().top
             -125}, 800);
     });
 
     //healco problems
-    $(".healco_problems").click(function() {
+    $(".healco_roles").click(function() {
         $("body,html").animate({
-            scrollTop: $("#healco_problems-div").offset().top
+            scrollTop: $("#healco_roles-div").offset().top
+            -125}, 800);
+    });
+
+    //healco website
+    $(".healco_website").click(function() {
+        $("body,html").animate({
+            scrollTop: $("#healco_website-div").offset().top
+            -125}, 800);
+    });
+
+    //healco form
+    $(".healco_form").click(function() {
+        $("body,html").animate({
+            scrollTop: $("#healco_form-div").offset().top
+            -125}, 800);
+    });
+
+    //healco dashboard
+    $(".healco_dashboard").click(function() {
+        $("body,html").animate({
+            scrollTop: $("#healco_dashboard-div").offset().top
+            -125}, 800);
+    });
+
+    //healco misc
+    $(".healco_misc").click(function() {
+        $("body,html").animate({
+            scrollTop: $("#healco_misc-div").offset().top
             -125}, 800);
     });
 
@@ -134,9 +162,9 @@ $(document).ready(function() {
     });
 
     //datadove roles
-    $(".datadove_tasks").click(function() {
+    $(".datadove_conclusion").click(function() {
         $("body,html").animate({
-            scrollTop: $("#datadove_tasks-div").offset().top
+            scrollTop: $("#datadove_conclusion-div").offset().top
             -125}, 800);
     });
 
