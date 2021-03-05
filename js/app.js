@@ -241,3 +241,13 @@ window.addEventListener("scroll", ()=> {
         }
     })
 })
+
+let tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".hero_banner"
+    }
+});
+
+tl.from(".hero", { y: 100, opacity: 0, duration: .65});
+// tl.from(".nav", { y: -100, opacity: 0, duration: .65});
+// tl.from(".hero_banner", { y: 100, opacity: 0, duration: .5});
