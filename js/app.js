@@ -6,6 +6,10 @@ $(".hamburger").click(function() {
     $(".hamburger").toggleClass("is-active");
 });
 
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 $(document).ready(function() {
     //rugs overview
     $(".home_works").click(function() {

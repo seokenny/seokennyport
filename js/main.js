@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+    });
+
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".hero"
