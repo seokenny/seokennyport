@@ -217,7 +217,7 @@ button:focus {outline:0;}
     & .hero {
         width: 87.5%;
         margin: auto;
-        padding: 9em 0 5em 0;
+        padding: 9em 0 3em 0;
         &_text {
             &-header {
                 margin-bottom: 1em;
@@ -618,10 +618,10 @@ button:focus {outline:0;}
 @media only screen and (min-width: 1081px) {
     .main {
         & .hero {
-            width: 800px;
+            width: 820px;
         }
         & .work {
-            width: 800px;
+            width: 820px;
         }
     }
 }
