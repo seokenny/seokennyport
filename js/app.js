@@ -252,6 +252,7 @@ let tl = gsap.timeline({
     }
 });
 
-tl.from(".hero", { y: 100, opacity: 0, duration: .65});
+tl.from(".hero", { opacity: 0, duration: .65});
+tl.from(".work", { opacity: 0, duration: .65});
 // tl.from(".nav", { y: -100, opacity: 0, duration: .65});
 // tl.from(".hero_banner", { y: 100, opacity: 0, duration: .5});
